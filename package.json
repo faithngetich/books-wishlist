@@ -9,6 +9,8 @@
     "test:unit": "jest"
   },
   "dependencies": {
+    "firebase": "^5.7.3",
+    "materialize-css": "^1.0.0-rc.2",
     "register-service-worker": "^1.5.2",
     "vue": "^2.5.21",
     "vue-router": "^3.0.1",
