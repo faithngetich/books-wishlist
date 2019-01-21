@@ -3,7 +3,7 @@ const auth = {
     user: {},
   },
 
-	getters: {
+  getters: {
     getLoggedInUser: state => state.user,
   },
 

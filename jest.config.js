@@ -20,13 +20,14 @@ module.exports = {
     '**/tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx)',
   ],
   testURL: 'http://localhost/',
-  // coverageDirectory: './coverage/',
-  // collectCoverage: true,
-  // collectCoverageFrom: [
-  //   'src/**/*.{js,vue}',
-  //   '!src/main.js',
-  //   '!src/router/index.js',
-  //   '!**/node_modules/**',
-  //   '!**/vendor/**',
-  // ],
+  coverageDirectory: './coverage/',
+  collectCoverage: true,
+  collectCoverageFrom: [
+    'src/**/*.{js,vue}',
+    '!src/main.js',
+    '!src/router/index.js',
+    '!**/node_modules/**',
+    '!**/vendor/**',
+    '!src/store/index.js',
+  ],
 };
